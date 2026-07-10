@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none; 
+}
+
+body {
+    background-color: #D5E1EF;
+    height: 1000px;
+
+    display: flex;
+    flex-direction: column; 
+
+    /*Eixo principal*/
+    justify-content: center; 
+    /*Eixo transversal*/
+    align-items: center; 
+}
+
+/*Cartão do QR Code*/
+.qr-code-card {
+    background-color: #FFFFFF;
+    width: 320px;
+    height: 499px;
+    padding: 16px 16px 40px 16px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    /*Eixo principal*/
+    justify-content: center;
+    /*Eixo transversal*/
+    align-items: center; 
+}
+
+/*Imagem do QR Code*/
+.qr-code-card img {
+    width: 288px;
+    height: 288px;
+    
+    border-radius: 10px;
+}
+
+.text {
+    /*background-color: lightblue;*/
+    width: 288px;
+    height: 181px;
+    padding: 5px;
+
+    margin: 24px 0 0 0;
+
+    display: flex;
+    flex-direction: column;
+    /*Eixo principal*/
+    justify-content: center;
+    /*Eixo transversal*/
+    align-items: center;
+
+    text-align: center; 
+}
+
+.text .title {
+    /*background-color: forestgreen;*/
+    width: 256px;
+    height: 52px;
+    
+    font-size: 22px;
+    font-family: 'Outfit';
+    font-weight: 700;
+    color: #1F314F;
+    
+}
+
+.paragraph {
+    /*background-color: blueviolet;*/
+    width: 256px;
+    height: 63px;
+    margin-top: 16px;
+
+    font-size: 15px;
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: #68778D;
+}
+
+.attribution {
+    font-family: 'Outfit';
+    font-weight: 400;
+    font-size: 10px;
+}
