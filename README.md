@@ -19,8 +19,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [QR Code component live site](https://ismael-dev1.github.io/QR-code-component/)
+- Solution URL: (https://github.com/ismael-dev1/QR-code-component)
+- Live Site URL: (https://ismael-dev1.github.io/QR-code-component/)
 
 ## My process
 
