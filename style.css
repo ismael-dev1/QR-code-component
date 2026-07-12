@@ -8,9 +8,14 @@
     list-style: none; 
 }
 
+html {
+    font-size: 62.5%; /*62.5% de 16px = 10px para main font-size nessa página. Base 10.*/  
+}
+
 body {
     background-color: #D5E1EF;
-    height: 1000px;
+    height: 100rem; 
+    font-size: 1.6rem;
 
     display: flex;
     flex-direction: column; 
@@ -24,11 +29,11 @@ body {
 /*Cartão do QR Code*/
 .qr-code-card {
     background-color: #FFFFFF;
-    width: 320px;
-    height: 499px;
-    padding: 16px 16px 40px 16px;
-    margin-bottom: 50px;
-    border-radius: 20px;
+    width: 32rem;
+    height: 49.9rem;
+    padding: 1.6rem 1.6rem 4rem 1.6rem;
+    margin-bottom: 5rem;
+    border-radius: 2rem;
 
     display: flex;
     flex-direction: column;
@@ -40,19 +45,19 @@ body {
 
 /*Imagem do QR Code*/
 .qr-code-card img {
-    width: 288px;
-    height: 288px;
+    width: 28.8rem;
+    height: 28.8rem;
     
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 .text {
     /*background-color: lightblue;*/
-    width: 288px;
-    height: 181px;
-    padding: 5px;
+    width: 28.8rem;
+    height: 18.1rem;
+    padding: 0.5rem; 
 
-    margin: 24px 0 0 0;
+    margin: 2.4rem 0 0 0;
 
     display: flex;
     flex-direction: column;
@@ -66,10 +71,10 @@ body {
 
 .text .title {
     /*background-color: forestgreen;*/
-    width: 256px;
-    height: 52px;
+    width: 25.6rem;
+    height: 5.2rem;
     
-    font-size: 22px;
+    font-size: 2.2rem;
     font-family: 'Outfit';
     font-weight: 700;
     color: #1F314F;
@@ -78,11 +83,11 @@ body {
 
 .paragraph {
     /*background-color: blueviolet;*/
-    width: 256px;
-    height: 63px;
-    margin-top: 16px;
+    width: 25.6rem;
+    height: 6.3rem;
+    margin-top: 1.6rem;
 
-    font-size: 15px;
+    font-size: 1.5rem;
     font-family: 'Outfit';
     font-weight: 400;
     color: #68778D;
@@ -91,5 +96,5 @@ body {
 .attribution {
     font-family: 'Outfit';
     font-weight: 400;
-    font-size: 10px;
+    font-size: 1.0rem;
 }
