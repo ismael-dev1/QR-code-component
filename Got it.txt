@@ -1,0 +1,18 @@
+% -> geralmente para ocupar 100%, 50%, 25% da tela, não importa a quantidade de pixels que seja a largura tela e acompanhar expansão e contração da view-port. 
+
+
+max-width -> permite que um elemento expanda de 0 até determinada medida de pixels.
+
+auto heights/allow content to define height -> permite que um elemento determine sua altura proporcionalmente, em relação a sua altura, de forma automática
+
+--------------------------------------------
+
+min-height: 100vh; - OK
+
+--------------------------------------------
+
+for the card and text blocks
+prefer fluid sizing (percent, max-width, auto heights)
+or allow content to define height so the card adapts on smaller screens.
+
+We're talking about general spacing to adapt the elements in general to smaller screens; I'll use all the things this mf told me to prefer and do, but it's no giving the answer, it's just givinf the tips and tools.

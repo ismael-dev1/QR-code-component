@@ -14,7 +14,7 @@ html {
 
 body {
     background-color: #D5E1EF;
-    height: 100rem; 
+    height: 100vh; 
     font-size: 1.6rem;
 
     display: flex;
@@ -24,6 +24,14 @@ body {
     justify-content: center; 
     /*Eixo transversal*/
     align-items: center; 
+}
+
+.main-content {
+
+}
+
+.frontend-mentor-qr-code {
+
 }
 
 /*Cartão do QR Code*/
